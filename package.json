@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "redoc-cli": "^0.13.15"
+  },
+  "scripts": {
+    "build": "redoc-cli build openapi.yaml -o dist/index.html"
   }
 }
